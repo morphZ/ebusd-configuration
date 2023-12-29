@@ -2,7 +2,7 @@
 *r,,,,,,B511,,,,,,,,,,,,,,,,,,,,,,,,,
 r,,State,,,,,07,energy,,UCH,,,,,,energy,,kWh,,onoff,,UCH,0=off;1=on,,,state,,UCH,0x01=ready;0x0b=error;0x09=heating;0x11=cooling;0x81=heating_water,,
 # Status message for hydraulics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-*uw,,,,,,B512,,,,,,,
+*uw,,,,,,B512,,,,,,,,,,,,,,,,,,,,,,,,,
 uw,,HpHydraulics,Status Hydraulik,,76,B512,1300,Pressure,m,UCH,10,bar,Systemdruck,Flow,m,UIN,,l/h,Durchflussrate,Unknown,m,UCH,,,,,,,,
 # Heatpump statistics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 *r,,,,,,B51A,05FF32,,,IGN:3,,,,,,,,,,,,,,,,,,,,,
