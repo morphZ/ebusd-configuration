@@ -23,6 +23,10 @@ r,,unknownB509h2802,,,08,B509,2802,,,HEX:*,,,Unknown from VWZ to HMU,,,,,,,,,,,,
 r,,Standby,,,,B503,020003,,,HEX:6,,,,,,,,,,,,,,,,,,,,,
 r,,HeatpumpLoadSensor,,,08,B507,0931,,,percent1,,,Heatpump Load Sensor (percent),,,,,,,,,,,,,,,,,,
 
+# Status message for hydraulics,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+*uw,,,,,,B512,,,,,,,,,,,,,,,,,,,,,,,,,
+uw,,StatusHydraulics,,,76,B512,1300,Pressure,m,UCH,10,bar,Systemdruck,Flow,m,UIN,,l/h,Durchflussrate,Unknown,m,UCH,,,,,,,,,
+
 # Values from VWZ AI Plus Test Menu,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #(queried from WP entries Installer level/Test Menu/Sensor test),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 *r,,,,,,B514,05,,,IGN:2,,,,,,,,,,,,,,,,,,,,,
