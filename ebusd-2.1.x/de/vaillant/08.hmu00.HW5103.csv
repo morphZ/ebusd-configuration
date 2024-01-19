@@ -87,11 +87,11 @@ r,,CondensorInletTemp,,,,,8103FFFF,,,temps2,10,°C,Condensor inlet temperature (
 r,,SupplyTempElectricHeater,,,,,8203FFFF,,,temps2,10,°C,Supply temperature electric heater (°C),,,,,,,,,,,,,,,,,,
 
 # Total heating yields,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-*r,,,,,,B516,18,,,IGN:1,,,,,,,,,,,,,,,,,,,,,
-r,,YieldTotal,,,,,01,,,energy,,kWh,,,,,,,,,,,,,,,,,,,
+# *r,,,,,,B516,18,,,IGN:1,,,,,,,,,,,,,,,,,,,,,
+# r,,YieldTotal,,,,,01,,,energy,,kWh,,,,,,,,,,,,,,,,,,,
 
 # Total electric power consumption,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-r,,EnergyConsumptionTotal,,,,,02,,,energy,,kWh,,,,,,,,,,,,,,,,,,,
+# r,,EnergyConsumptionTotal,,,,,02,,,energy,,kWh,,,,,,,,,,,,,,,,,,,
 
 # Ecologic energy Yields,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # not working in my setup: e.g. 3108b516041a020b00 / 00: ERR: invalid position,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -150,7 +150,7 @@ r,,FlowTemp,,,,,FF3220,,,D2C,,°C,,,,,,,,,,,,,,,,,,,
 r,,EnergyIntegral,,,,,FF3221,,,integral,,°min,current energy integral in °min,,,,,,,,,,,,,,,,,,
 r,,SourceTempInput,,,,,FF3222,,,D2C,,°C,,,,,,,,,,,,,,,,,,,
 r,,CurrentYieldPower,,,,,FF3223,,,D1B,10,kW,,,,,,,,,,,,,,,,,,,
-r,,CurrentConsumedPower,,,,,FF3224,,,D1B,10,kW,,,,,,,,,,,,,,,,,,,
+r1,,CurrentConsumedPower,,,,,FF3224,,,D1B,10,kW,,,,,,,,,,,,,,,,,,,
 r,,CompressorSensor,,,,,FF3225,,,percent3,10,,(percent of maximum),,,,,,,,,,,,,,,,,,
 r,,AirIntakeTemp,,,,,FF3226,,,D2C,,°C,,,,,,,,,,,,,,,,,,,
 r,,SourceTempOutput,,,,,FF3227,,,D2C,,°C,,,,,,,,,,,,,,,,,,,
